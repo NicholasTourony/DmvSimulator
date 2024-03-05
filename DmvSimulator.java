@@ -16,7 +16,7 @@ public class DmvSimulator
             notCalled = !(currentNumber == userNumber);
             currentNumber = (currentNumber % 100) + 1;
         }
-        System.out.println("Sorry you don't have the required paperwork");
+        System.out.println("You clot. You absolute buffoon. You forgot your paperwork. Leave my sight immediately!");
 
     }
 }

@@ -16,7 +16,7 @@ public class DmvSimulator
             notCalled = !(currentNumber == userNumber);
             currentNumber = (currentNumber % 200) + 1;
         }
-        System.out.println("You clot. You absolute buffoon. You forgot your paperwork. Leave my sight immediately!");
+        System.out.println("You clot. You absolute buffoon. You forgot your paperwork. Leave my sight immediately! Muahahahahahahaha!");
 
     }
 }

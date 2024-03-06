@@ -16,7 +16,7 @@ public class DmvSimulator
             notCalled = !(currentNumber == userNumber);
             currentNumber = (currentNumber % 200) + 1;
         }
-
+        
         int paperworkChance = random.nextInt(1, 101);
         if (paperworkChance == 93)
         {
@@ -24,7 +24,7 @@ public class DmvSimulator
         }
         else
         {
-            System.out.println("You clot. You absolute buffoon. You forgot your paperwork. Leave my sight immediately!");
+            System.out.println("You clot. You absolute buffoon. You forgot your paperwork. Leave my sight immediately! Muahahahahahahaha!");
         }
     }
 }
